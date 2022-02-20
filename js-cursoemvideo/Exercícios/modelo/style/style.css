@@ -1,0 +1,34 @@
+/* importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --fontpadrao: 'PT Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--fontpadrao);
+    text-align: center;   
+    background-color: rgb(47, 139, 192); 
+}
+
+h1 {
+    color: white;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+footer {
+    color: white;
+    font-weight: bold;
+}

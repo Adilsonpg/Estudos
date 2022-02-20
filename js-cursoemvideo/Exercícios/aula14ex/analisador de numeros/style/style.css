@@ -1,0 +1,76 @@
+/* importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --fontpadrao: 'PT Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--fontpadrao);
+    text-align: center;   
+    background-color: rgb(47, 139, 192); 
+}
+
+h1 {
+    color: white;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+input#txtn{
+    width: 40px;    
+}
+
+input.btn {
+    color: white;
+    background-color: rgb(47, 139, 192);
+    font-weight: bold;
+    padding: 3px;
+    border: 0;  
+    margin-bottom: 10px;  
+}
+
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 350ms ease-in-out;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
+
+select {
+    width: 150px;
+}
+
+div#divres{
+    background-color: rgb(47, 139, 192);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.divsel{
+    padding: 0px 0px 10px 0px;
+}
+
+footer {
+    color: white;
+    font-weight: bold;
+}

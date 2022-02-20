@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Super Contador</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div class="dados">
+           <p>Inicio: <input type="number" name="inicio" id="txtini" class="num"></p>
+           <p>Fim: <input type="number" name="fim" id="txtfim" class="num"></p>
+           <p>Passo: <input type="number" name="passo" id="txtpass" class="num"></p>    
+        </div>
+        <p>
+            Clique no botão para contar -> <input type="button" value="Contar" onclick="contar()">
+         </p>         
+        <div id="res" class="resultado">
+        </div>
+    </section>
+    <footer>
+        Exercício do Curso de JS do <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">Curso em vídeo</a>.
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>

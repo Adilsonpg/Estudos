@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados</title>
+</head>
+<body>    
+        <script>
+            var nome = window.prompt('Qual seu nome? ');
+            document.write(`Olá ${nome} !!! Seu nome tem ${nome.length} letras</br>`);
+            document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}</br>`);
+            document.write(`Seu nome em minúsculas é ${nome.toLowerCase()} </br>`);
+            var sal = Number.parseFloat(window.prompt(`${nome} digite seu salário ai pra nois ve uma coisa`));
+            document.write(`${nome} esse é seu salário em BRL é ${sal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`);
+            document.write(`esse é seu salário em USD é ${sal.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})}`);
+            document.write(`esse é seu salário em EU é ${sal.toLocaleString('pt-BR', {style: 'currency', currency: 'EU'})}`);
+        </script>    
+</body>
+</html>
