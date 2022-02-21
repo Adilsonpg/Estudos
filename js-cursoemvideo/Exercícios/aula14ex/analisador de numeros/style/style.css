@@ -5,6 +5,8 @@
     --fontpadrao: 'PT Sans', sans-serif;
 }
 
+/* zerando margem/padding e tirando a decoração de textos */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -21,11 +23,11 @@ h1 {
     color: white;
 }
 
-p{
+p {
     padding-bottom: 10px;
 }
 
-input#txtn{
+input#txtn {
     width: 40px;    
 }
 
@@ -57,16 +59,15 @@ select {
     width: 150px;
 }
 
-div#divres{
+div#divres {
     background-color: rgb(47, 139, 192);
     color: white;
     font-weight: bold;
     padding: 10px;
     border-radius: 10px;
-
 }
 
-.divsel{
+.divsel {
     padding: 0px 0px 10px 0px;
 }
 
