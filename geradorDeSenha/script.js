@@ -7,7 +7,7 @@ let password = document.querySelector('#password')
 let containerPassword = document.querySelector('#container-password')
 
 let charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%¨&*()'
-let novasenha = "";
+let novaSenha = "";
 
 sizePassword.innerHTML = sliderElement.ariaValueMax
 sliderElement.oninput = function(){
@@ -22,9 +22,10 @@ function gerarSenha(){
 
     containerPassword.classList.remove('hide')
     password.innerHTML = pass
+    novaSenha = pass;
 }
 
 function copiarSenha(){
-    alert('senha copiada com sucesso')
+    alert('senha copiada !')
     navigator.clipboard.writeText(novaSenha)
 }
