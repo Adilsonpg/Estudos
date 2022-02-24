@@ -10,25 +10,41 @@
 
 </head>
 <body>
-    <h1>GERADOR DE SENHA</h1>
 
-    <main class="container-input">
-        <span>Tamanho <span id="valor"></span> caracteres</span>
-        <input type="range" id="slider" class="slider" min="5" max="25" value="15">
-        <button id="button" class="button-cta" onclick="gerarSenha()">Gerar Senha</button>
-    </main>
-
-    <div id="container-password" class="container-password hide">
-        <span class="title"> Sua senha gerada foi:</span>
-        <span id="password" class="password" onclick="copiarSenha()">1231232312321312</span>
-        <span class="tooltip">Clique na senha para copiar. 👆 </span>
-
+    <div class="div-main">
+        <section class="section-texto">
+            <div class="container-texto"> 
+                <article>
+                    <h1>Fique ainda mais seguro gere sua senha ao lado, basta clicar em gerar senha e será mostrado a senha do tamanho selecionado</h1>
+                    <p>Confira essas dicas do site <a href="https://www.kaspersky.com.br/resource-center/threats/how-to-create-a-strong-password " target="_blank">kaspersky</a> um dos melhores e mais seguros antivírus do mundo.</p> 
+                </article>
+            </div>
+        </section>
+        <section class="section-gerador"> 
+                <img src="geradordesenha.png" alt="Gerador de Senha">           
+                         
+            <div class="container-input">
+                    <div class="msg-tamanho">
+                        <span>Tamanho <span id="valor"></span> caracteres</span>
+                    </div>
+                    <input type="range" id="slider" class="slider" min="5" max="25" value="15">
+                    <button id="button" class="button-cta" onclick="gerarSenha()">Gerar Senha</button>
+                
+                <div id="container-password" class="container-password hide">
+                    <span class="title"> Sua senha gerada foi:</span>
+                    <span id="password" class="password" onclick="copiarSenha()">1231232312321312</span>
+                    <span class="tooltip">Clique na senha para copiar. 👆 </span>
+                </div>
+            </div>
+        </section>
     </div>
 
 
 
 
-
+    <footer>
+        
+    </footer>
 
     <script src="script.js"></script>    
 </body>
